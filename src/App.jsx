@@ -4,7 +4,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"; // React Router
 import { Home, Cart, CategoryProduct, ProductSingle, Search } from "./pages";
 // components
 import Layout from "./components/Layout";
-import Siderbar from "./components/Sidebar/Sidebar"; // 側邊欄
 
 const App = () => {
   return (

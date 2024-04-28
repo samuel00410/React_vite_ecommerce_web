@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Navbar from "../Navbar/Navbar"; // 選單
 
 const Header = () => {
-  return <div>Header</div>;
+  return <header className="header text-white"></header>;
 };
 
 export default Header;
