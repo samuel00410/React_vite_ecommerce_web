@@ -1,0 +1,21 @@
+.head {
+  background-color: #0f3460;
+  padding: 10px 0;
+  color: #fff;
+
+  div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div.left {
+      i {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  span {
+    margin-right: 1rem;
+  }
+}

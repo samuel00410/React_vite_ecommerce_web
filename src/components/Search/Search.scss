@@ -1,0 +1,64 @@
+section.search {
+  padding: 1rem 0;
+
+  div.logo {
+    img {
+      width: auto;
+      height: auto;
+    }
+  }
+
+  //   div.logo.width {
+  //     width: 20%;
+  //   }
+
+  div.search-box {
+    width: 80%;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+    i {
+      width: 5%;
+      text-align: center;
+      padding: 1rem;
+      font-size: 20px;
+      color: gray;
+      opacity: 0.5;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+    }
+
+    span {
+      width: 20%;
+      opacity: 0.5;
+      border-left: 2px solid rgba(0, 0, 0, 0.1);
+      padding: 10px;
+    }
+  }
+
+  div.icon {
+    div.cart {
+      position: relative;
+    }
+
+    div.cart span {
+      position: absolute;
+      top: -10px;
+      right: 0px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      text-align: center;
+      background-color: #e94560;
+      font-size: 12px;
+      color: #fff;
+    }
+  }
+
+  div.f_flex {
+    justify-content: end;
+  }
+}
